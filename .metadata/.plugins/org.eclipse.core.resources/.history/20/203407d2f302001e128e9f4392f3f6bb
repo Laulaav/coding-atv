@@ -1,0 +1,38 @@
+package Model;
+
+import java.util.List;
+import java.util.ArrayList;
+
+public class ConjuntoProdutos {
+	private List<Produto> produtos;
+
+	public ConjuntoProdutos() {
+		super();
+		this.produtos = new ArrayList<Produto>();
+	}
+	
+	private boolean verificaCodigo(int codigo) {
+		for(int i=0;i<produtos.size(); i++) {
+		Produto produto = produtos.get(i);
+		if (produto.getCodigo() == codigo) {
+            return true;
+        }
+		}
+		return false;
+	}
+	
+	public boolean inserirProduto (Produto produto){
+		if(verificaCodigo(produto.getCodigo()) == false) {
+			produtos.add(produto);
+			return true;
+		}else {
+			System.out.println("Este código de produto já está cadastrado. Insira um novo:");
+			return false;
+		}	
+	}
+	
+	public 
+	
+	
+
+}

@@ -1,0 +1,19 @@
+package Model;
+
+import java.util.List;
+import java.util.ArrayList;
+
+public class ConjuntoProdutos {
+	private List<Produto> produtos;
+
+	public ConjuntoProdutos() {
+		super();
+		this.produtos = new ArrayList<Produto>();
+	}
+	
+	public boolean inserirProduto (Produto produto){
+		
+		return true;
+	}
+
+}

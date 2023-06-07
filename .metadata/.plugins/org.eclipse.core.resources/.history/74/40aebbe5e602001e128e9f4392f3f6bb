@@ -1,0 +1,20 @@
+package Principal;
+
+import Model.Produto;
+import Model.Fornecedor;
+
+public class TesteProduto {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Fornecedor fornecedor1 = new Fornecedor("1234321","992346789","Zé Maria");
+		Fornecedor fornecedor2 = new Fornecedor("543212345","992196385","Cláudio");
+		
+		Produto produto1 = new Produto(1,"TV LCD",35.2f, fornecedor1);
+		Produto produto2 = new Produto(2,"Notebook",20.2f, fornecedor1);
+		Produto produto3 = new Produto(3,"Impressora",232.2f, fornecedor2);
+		
+		System.out.println(produto1);
+	}
+
+}

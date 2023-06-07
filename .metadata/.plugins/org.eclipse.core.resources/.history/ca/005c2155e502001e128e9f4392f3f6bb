@@ -1,0 +1,13 @@
+package Principal;
+
+import Model.Produto;
+import Model.Fornecedor;
+
+public class TesteProduto {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Produto produto1 = new Produto();
+	}
+
+}

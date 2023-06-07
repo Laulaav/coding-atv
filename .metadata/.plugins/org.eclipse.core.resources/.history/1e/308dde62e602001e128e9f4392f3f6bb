@@ -1,0 +1,22 @@
+package Principal;
+
+import Model.Produto;
+import Model.Fornecedor;
+
+public class TesteProduto {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Fornecedor fornecedor1 = new Fornecedor("1234321","992346789","Zé Maria");
+		Fornecedor fornecedor2 = new Fornecedor("543212345","992196385","Cláudio");
+		
+		Produto produto1 = new Produto(1,"TV LCD",3500.00, fornecedor1);
+		
+		//produto1
+		//código = 1 - int
+				//nome = tv lcd - string
+				//valor = 3.500 - float
+				//fornecedor
+	}
+
+}
